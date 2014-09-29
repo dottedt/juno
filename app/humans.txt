@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Web designer: Scott C. Hughes
+  email:  scott [at] dottedt.com
+  Twitter: @dottedt
+
+# THANKS
+
+  Jason Chan
+  B.K. Park
+
+# Special note for the folks at Yelp!.
+It's me. It's me It's DottedT
+
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, jQuery, Web Starter Kit

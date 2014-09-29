@@ -1,0 +1,228 @@
+html {
+    &#menu-background {
+        background: url(../images/background-image-temp.jpg) black no-repeat right -25px;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    &#spirits-background {
+        background: url(../images/spirits_background.jpg) black no-repeat right -25px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    &#omakase-background {
+        background: url(../images/omakase_background.jpg) black no-repeat right -25px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+/*– HTC OneX, LG Nexus 4, Blackberry Z10, Samsung Galaxy Nexus, HTC Evo LTE, Galaxy S III (I9300), Samsung Galaxy Note, Samsung Galaxy Note II, Sony Xperia S, -*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) {
+    html {
+        background: url(../images/background-image-temp.jpg) black no-repeat right -25px;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    #restaurant-menu {
+        height: 1000px;
+        overflow: scroll;
+    }
+    #background-video, #mute, .hide-text{
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        width:1280px;
+        .fa {
+          padding-right: 5px;
+          font-size: 20px;
+          a {
+            padding-right: 5px;
+          }
+        }
+    }
+    #background-video, #mute, .hide-text{
+        display: none;
+    }
+}
+/*– HTC OneX, LG Nexus 4, Blackberry Z10, Samsung Galaxy Nexus, HTC Evo LTE, Galaxy S III (I9300), Samsung Galaxy Note, Samsung Galaxy Note II, Sony Xperia S, -*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:1280px) and (orientation : landscape) {
+    #restaurant-menu {
+        height: 1000px;
+        overflow: scroll;
+    }
+    #background-video, #mute, .hide-text{
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        width:1280px;
+        .fa {
+          padding-right: 5px;
+          font-size: 20px;
+          a {
+            padding-right: 5px;
+          }
+        }
+    }
+}
+
+/*– HTCOne, Sony Xperia, HTC Droid DNA, Samsung Galaxy S4, Sony Xperia Z */
+@media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width:1920px) and (orientation : landscape) {
+    #restaurant-menu {
+        height: 1000px;
+        overflow: scroll;
+    }
+    #background-video, #mute, .hide-text{
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        width:1920px;
+    }
+
+}
+
+
+@media only screen and (max-device-width: 800px) {
+    html {
+        background: url(../images/background-image-temp.jpg) black no-repeat right -25px;
+        background-color:black;
+        background-attachment: fixed;
+    }
+    #restaurant-menu {
+        height: 1000px;
+        overflow: scroll;
+    }
+    #background-video, #mute, .hide-text{
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        .fa {
+          padding-right: 5px;
+          font-size: 20px;
+          a {
+            padding-right: 5px;
+          }
+        }
+    }
+}
+
+video {
+    display: block;
+    &#background-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        background: url(../images/background-image-temp.jpg) no-repeat right;
+        background-size: cover;
+    }
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    ul {
+        padding:0 0 0 10px;
+    }
+    li {
+        display: inline-block;
+        font-weight: bolder;
+        color: white;
+        padding:0 0 0 7px;
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:visited {
+                color: #fff;
+            }
+            &:hover {
+                color: #fff;
+            }
+          .fa {
+            padding-right: 5px;
+          }
+        }
+    }
+}
+
+
+#restaurant-menu, #omakase {
+  position:relative;
+  top:35px;
+}
+button {
+  color:white;
+}
+.warning, .omakase {
+    background-color: white;
+    opacity: 0.8;
+    padding: 10px;
+    margin: 33px 0 30px 0;
+    h2, a {
+        color:#931b0c
+    }
+    p {
+        font-weight: bolder;
+    }
+
+}
+
+#restaurant-menu {
+    h2 {
+        color: #931b0c;
+        background-color: white;
+        margin: 32px 0 0 0;
+        opacity: 0.7;
+        padding: 10px 0 0 10px;
+    }
+    h3 {
+        position: relative;
+    }
+    span {
+        position: absolute;
+        right: 0;
+    }
+    ul {
+        background-color: white;
+        opacity: 0.7;
+        list-style-type: none;
+        padding: 0 0 0 10px;
+        margin: 0;
+    }
+    li {
+        padding: 2px 20px 2px 12px;
+        text-decoration: none;
+        p {
+            font-weight: bold;
+            a {
+                color: #931b0c;
+            }
+        }
+
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.navdrawer-container {
+    font-weight: bolder;
+}
+.fade {
+  opacity: 0.5;
+}
